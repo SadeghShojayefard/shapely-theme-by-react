@@ -1,0 +1,72 @@
+.clinets-body {
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.clinets-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.clinets-title p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* بخش لوگوها */
+.clinets-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* برای ریسپانسیو */
+    gap: 30px;
+}
+
+.clinets-img img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.clinets-img img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+/* --- ریسپانسیو --- */
+@media (max-width: 768px) {
+    .clinets-title p {
+        font-size: 24px;
+    }
+
+    .clinets-img img {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .clinets-title p {
+        font-size: 20px;
+    }
+
+    .clinets-img {
+        gap: 20px;
+    }
+
+    .clinets-img img {
+        width: 100px;
+        height: 70px;
+    }
+}

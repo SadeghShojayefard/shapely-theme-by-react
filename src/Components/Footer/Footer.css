@@ -1,0 +1,56 @@
+.footer-style {
+    width: 100%;
+    min-height: 200px;
+    background-color: #0E1015;
+    display: flex;
+    flex-direction: column;
+    /* موبایل راحت‌تر */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.footer-style p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social-style {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-style a {
+    text-decoration: none;
+}
+
+.social-style img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: grey;
+    transition: all 0.2s linear;
+}
+
+.social-style img:hover {
+    background-color: #5234F9;
+    transform: scale(1.1);
+}
+
+/* ========== ریسپانسیو ========== */
+@media (max-width: 480px) {
+    .footer-style p {
+        font-size: 14px;
+    }
+
+    .social-style img {
+        width: 25px;
+        height: 25px;
+        padding: 4px;
+    }
+}

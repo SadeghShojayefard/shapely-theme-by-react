@@ -1,0 +1,77 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Hero/Hero-Bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.title-firstLine {
+    color: #fff;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.title-SecondLine {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.Hero-Button-Section {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* ========== ریسپانسیو ========== */
+@media (max-width: 992px) {
+    .title-firstLine {
+        font-size: 40px;
+    }
+
+    .title-SecondLine {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    .title-firstLine {
+        font-size: 30px;
+    }
+
+    .title-SecondLine {
+        font-size: 15px;
+    }
+
+    .Hero-Button-Section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-firstLine {
+        font-size: 22px;
+    }
+
+    .title-SecondLine {
+        font-size: 14px;
+    }
+}

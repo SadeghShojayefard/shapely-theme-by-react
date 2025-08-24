@@ -1,0 +1,49 @@
+.customes-style {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Customers/Customers-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.customes-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.customes-title-firstLine {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.customes-title-SecondLine {
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+    max-width: 50%;
+}
+
+.customes-style img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid none;
+    border-radius: 100px;
+
+}
+
+.customes-name {
+    color: white;
+    font-weight: bold;
+}
