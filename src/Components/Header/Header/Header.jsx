@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Nav from '../Nav/Nav';
-import './header.css';
+import './Header.css';
 
 function Header() {
     const [open, setOpen] = useState(false);
