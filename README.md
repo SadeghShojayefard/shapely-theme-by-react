@@ -61,7 +61,7 @@ Then open [http://localhost:5173](http://localhost:5173) to preview the app loca
   <img src="public/screenshot-1.jpg" width="45%" height="200px" />
   <img src="public/screenshot-2.jpg" width="20%" height="200px"/>
 </p>
----
+
 
 ## 🧩 Project Structure
 
